@@ -6,7 +6,7 @@ def sum arr
   # YOUR CODE HERE
   sum = 0;
  if array.length == 0
-   return 0
+   return nil
  elseif arr.length >=1
    return array.each { |a| sum+=a }
 
