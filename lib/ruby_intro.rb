@@ -4,7 +4,12 @@
 
 def sum arr
   # YOUR CODE HERE
+if arr.length == 0
+  return 0
+elseif arr.length >= 1
+  return arr.inject(:+)
 end
+
 
 def max_2_sum arr
   # YOUR CODE HERE
