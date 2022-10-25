@@ -13,18 +13,7 @@ end
 
 def max_2_sum arr
   # YOUR CODE HERE
-if arr.length == 0
-return 0
-elsif arr.length == 1
-return arr[0]
 end
-arr=arr.sort
-return arr[-1] + arr[-2]
-end
-
-n = [7,9,1,34,12,97,21 ]
-
-puts "sum of max 2 elements #{max_2_sum(n)}"
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
