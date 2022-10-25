@@ -4,17 +4,21 @@
 
 def sum arr
   # YOUR CODE HERE
-  arr.inject(0){ |sum, x| sum + x }
+ if array.length == 0
+   return 0
+ elseif arr.length >=1
+   return arr.inject(0){ |sum, x| sum + x }
+
 end
 
 def max_2_sum arr
   # YOUR CODE HERE
-  sum(arr.sort.last(2))
+ return sum(arr.sort.last(2))
 end
 
 def sum_to_n? arr, n
   # YOUR CODE HERE
-  !!arr.uniq.combination(2).detect{|a,b| a + b == n}
+ return !!arr.uniq.combination(2).detect{|a,b| a + b == n}
 end
 
 # Part 2
