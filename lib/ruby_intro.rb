@@ -4,9 +4,9 @@
 
 def sum (arr)
   # YOUR CODE HERE
- if arr.length() >= 1
+ if arr.length() > 0
    return arr.sum
- else arr.length == 0
+ else
    return nil
 
 end
