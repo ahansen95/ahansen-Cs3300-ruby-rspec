@@ -2,14 +2,13 @@
 
 # Part 1
 
-def sum(arr)
+def sum arr
   # YOUR CODE HERE
   sum = 0;
- if arr.length == 0
+ if arr.length >= 1
+   return arr.sum
+ elseif arr.length == 0
    return nil
- elseif arr.length >=1
-   array.sum
-   return sum
 
 end
 
