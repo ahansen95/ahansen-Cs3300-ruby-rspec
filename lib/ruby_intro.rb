@@ -5,8 +5,9 @@
 def sum arr
   # YOUR CODE HERE
   sum = 0;
+  arr.sum
  if arr.length >= 1
-   return arr.sum
+   return sum
  elseif arr.length == 0
    return nil
 
