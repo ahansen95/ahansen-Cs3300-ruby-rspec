@@ -2,7 +2,7 @@
 
 # Part 1
 
-def sum arr
+def sum(arr)
   # YOUR CODE HERE
   sum = 0;
  if arr.length == 0
