@@ -14,7 +14,7 @@ if arr.length == 0
 elsif arr.length == 1
       return arr[0]
 else
-      arr.sort
+      arr = arr.sort
       return arr[-1] + arr[-2]
 end
 
