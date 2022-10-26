@@ -2,11 +2,11 @@
 
 # Part 1
 
-def sum arr
+def sum (arr)
   # YOUR CODE HERE
   sum = 0;
   arr.sum
- if arr.length >= 1
+ if arr.length() >= 1
    return sum
  elseif arr.length == 0
    return nil
