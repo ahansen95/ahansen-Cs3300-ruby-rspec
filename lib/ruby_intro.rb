@@ -9,6 +9,14 @@ end
 
 def max_2_sum arr
   # YOUR CODE HERE
+if arr.length == 0
+      return 0
+elsif arr.length == 1
+      return arr[0]
+else
+      arr.sort
+      return arr[-1] + arr[-2]
+end
 
 end
 
