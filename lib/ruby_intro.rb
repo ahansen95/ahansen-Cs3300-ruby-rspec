@@ -8,6 +8,7 @@ def sum (arr)
    return arr.sum
  else
    return nil
+ end
 
 end
 
