@@ -8,7 +8,8 @@ def sum(arr)
  if arr.length == 0
    return nil
  elseif arr.length >=1
-   return array.each { |a| sum+=a }
+   array.each { |a| sum+=a }
+   return sum
 
 end
 
