@@ -23,24 +23,6 @@ end
 def sum_to_n? arr, n
   # YOUR CODE HERE
 
-# combination() find the combination of every pair of 2 numbers
-
-x = array.combination(2).find { |x, y| x + y == n }
-
-# if a pair is present
-
-if x
-
-return true
-
-# if a pair is not present
-
-else
-
-return false
-
-end
-
 end
 
 # Part 2
