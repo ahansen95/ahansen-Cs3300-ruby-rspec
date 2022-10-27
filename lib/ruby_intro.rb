@@ -23,6 +23,7 @@ end
 def sum_to_n? arr, n
   # YOUR CODE HERE
   !!arr.uniq.combination(2).detect{|x,y| x + y == n}
+
 end
 
 # Part 2
@@ -34,20 +35,24 @@ end
 
 def starts_with_consonant? s
   # YOUR CODE HERE
+  #checking both upper and lower case
   /^[^aeiouAEIOU\d\W]/i =~ s ? true : false
 end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
+  #return false if s is emtpy or not ending in 01(multiple of 4)
   return false if s.empty? || s =~ /[^01]/
   (s == '0') || s.end_with?('00')
+
 end
 
 # Part 3
 
 class BookInStock
   # YOUR CODE HERE
-    attr_accessor :isbn, :price
+    attr_accessor :isbn
+    attr_accessor :price
     
     def initialize isbn, price
       raise ArgumentError.new("ISBN is empty") unless isbn.length > 0
